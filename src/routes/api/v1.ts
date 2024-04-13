@@ -1,5 +1,5 @@
-import HealthController from '@controllers/health.controller';
-import Route from '@interfaces/route.interface';
+import HealthController from '@/controllers/health.controller';
+import Route from '@/interfaces/route.interface';
 import { Router } from 'express';
 
 class V1Route implements Route {

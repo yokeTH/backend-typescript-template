@@ -8,12 +8,14 @@
     "prepare": "husky",
     "dev": "nodemon",
     "lint": "eslint src/",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "build": "tsc && tsc-alias"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.19.2",
+    "tsc-alias": "^1.8.8",
     "typescript": "^5.4.5"
   },
   "devDependencies": {

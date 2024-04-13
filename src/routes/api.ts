@@ -1,4 +1,4 @@
-import Route from '@interfaces/route.interface';
+import Route from '@/interfaces/route.interface';
 import { Router } from 'express';
 import V1Route from './api/v1';
 

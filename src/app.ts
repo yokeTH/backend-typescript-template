@@ -1,5 +1,5 @@
-import type Route from '@interfaces/route.interface';
-import { errorMiddleware } from '@middlewares/error.middleware';
+import type Route from '@/interfaces/route.interface';
+import { errorMiddleware } from '@/middlewares/error.middleware';
 import express, { type Application } from 'express';
 
 class App {
